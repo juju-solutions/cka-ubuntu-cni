@@ -1,0 +1,7 @@
+includes:
+  - 'layer:basic'
+  - 'interface:kubernetes-cni'
+options:
+  basic:
+    packages:
+      - 'docker.io'

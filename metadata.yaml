@@ -1,0 +1,14 @@
+name: cka-ubuntu-cni
+summary: ubuntu + cni for cka
+maintainer: rye <rye.terrell@canonical.com>
+description: |
+  ubuntu + cni for cka
+tags:
+  - misc
+series:
+  - xenial
+subordinate: false
+provides:
+  cni:
+    interface: kubernetes-cni
+    scope: container
